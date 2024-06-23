@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .featured, .recipes {
+            margin-bottom: 20px;
+        }
+        .featured h2, .recipes h2 {
+            color: #444;
+            border-bottom: 2px solid #444;
+            padding-bottom: 5px;
+        }
+        .dish, .recipe {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+        .dish img, .recipe img {
+            max-width: 150px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .dish div, .recipe div {
+            flex: 1;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Food Blog</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Recipes</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <section class="featured">
+        <h2>Featured Dishes</h2>
+        <div class="dish">
+            <img src="dish1.jpg" alt="Dish 1">
+            <div>
+                <h3>Delicious Pasta</h3>
+                <p>This pasta dish is made with fresh ingredients and a rich, creamy sauce.</p>
+            </div>
+        </div>
+        <div class="dish">
+            <img src="dish2.jpg" alt="Dish 2">
+            <div>
+                <h3>Grilled Steak</h3>
+                <p>Perfectly grilled steak served with a side of garlic butter potatoes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="recipes">
+        <h2>Latest Recipes</h2>
+        <div class="recipe">
+            <img src="recipe1.jpg" alt="Recipe 1">
+            <div>
+                <h3>Chocolate Cake</h3>
+                <p>This chocolate cake is rich, moist, and topped with a smooth chocolate ganache.</p>
+            </div>
+        </div>
+        <div class="recipe">
+            <img src="recipe2.jpg" alt="Recipe 2">
+            <div>
+                <h3>Caesar Salad</h3>
+                <p>A classic Caesar salad with homemade dressing and crunchy croutons.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 My Food Blog. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
